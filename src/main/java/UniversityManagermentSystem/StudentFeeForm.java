@@ -13,7 +13,7 @@ public class StudentFeeForm extends JFrame implements ActionListener {
     JComboBox cbcourse,cbsubject,cbtrimester,cbrollno;
     JButton update,cancel,pay;
     JLabel lbltotal;
-    StudentFeeForm(){
+    public StudentFeeForm(){
         setSize(900,500);
         setLocation(300,100);
         setLayout(null);

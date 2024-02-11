@@ -8,9 +8,9 @@ import java.awt.event.ActionListener;
 import java.sql.ResultSet;
 
 public class Login extends JFrame implements ActionListener {
-    JButton buttonLogin, buttonCancel;
-    JTextField tfusername, tfpassword;
-    Login(){
+     JButton buttonLogin, buttonCancel;
+     JTextField tfusername, tfpassword;
+    public Login(){
         getContentPane().setBackground(Color.white);
         setLayout(null);
 

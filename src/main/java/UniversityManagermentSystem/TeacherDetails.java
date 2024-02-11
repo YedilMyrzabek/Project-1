@@ -12,7 +12,7 @@ public class TeacherDetails extends JFrame implements ActionListener {
     Choice cEmpId;
     JTable table;
     JButton search, print,update, add,cancel;
-    TeacherDetails(){
+    public TeacherDetails(){
         getContentPane().setBackground(Color.WHITE);
         setLayout(null);
 

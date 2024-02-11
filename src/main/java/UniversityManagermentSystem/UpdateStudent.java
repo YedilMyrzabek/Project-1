@@ -15,7 +15,7 @@ public class UpdateStudent extends JFrame implements ActionListener {
     JLabel labelrollno;
     JButton submit,cancel;
     Choice crollno;
-    UpdateStudent(){
+    public UpdateStudent(){
         setSize(900,650);
         setLocation(350,50);
         setLayout(null);

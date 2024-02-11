@@ -13,7 +13,7 @@ public class Teacherleave extends JFrame implements ActionListener {
     JDateChooser dcdate;
     Choice crollno,ctime;
     JButton submit,cancel;
-    Teacherleave(){
+    public Teacherleave(){
         setSize(500,550);
         setLocation(550,100);
         setLayout(null);

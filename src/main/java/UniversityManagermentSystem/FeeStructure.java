@@ -7,7 +7,7 @@ import java.awt.*;
 import java.sql.ResultSet;
 
 public class FeeStructure extends JFrame {
-    FeeStructure(){
+    public FeeStructure(){
         setSize(1000,700);
         setLocation(250,50);
         setLayout(null);

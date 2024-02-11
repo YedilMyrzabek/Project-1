@@ -11,10 +11,10 @@ import java.sql.ResultSet;
 import net.proteanit.sql.DbUtils;
 
 public class ExaminationDetails extends JFrame implements ActionListener {
-    JTextField search;
-    JButton submit,cancel;
-    JTable table;
-    ExaminationDetails(){
+     JTextField search;
+     JButton submit,cancel;
+     JTable table;
+     ExaminationDetails(){
         setSize(1000,475);
         setLocation(300,100);
 

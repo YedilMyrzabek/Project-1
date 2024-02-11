@@ -12,7 +12,7 @@ public class TeacherLeaveDetails extends JFrame implements ActionListener {
     Choice crollno;
     JTable table;
     JButton search, print,update, add,cancel;
-    TeacherLeaveDetails(){
+    public TeacherLeaveDetails(){
         getContentPane().setBackground(Color.WHITE);
         setLayout(null);
 

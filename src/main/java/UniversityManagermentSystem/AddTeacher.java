@@ -8,14 +8,14 @@ import java.util.Random;
 import com.toedter.calendar.JDateChooser;
 
 public class AddTeacher extends JFrame implements ActionListener {
-    JTextField tfname,tffname,tfaddress,tfphone,tfxii,tfemail,tfx,tfcourse;
-    JLabel labelrollno;
-    JDateChooser dcdob;
-    JComboBox cbcourse;
-    JButton submit,cancel;
+     JTextField tfname,tffname,tfaddress,tfphone,tfxii,tfemail,tfx;
+     JLabel labelrollno;
+     JDateChooser dcdob;
+     JComboBox cbcourse;
+     JButton submit,cancel;
     Random ran = new Random();
     long first4 = Math.abs((ran.nextLong() %9000L)  + 1000L);
-    AddTeacher(){
+    public AddTeacher(){
         setSize(900,700);
         setLocation(350,50);
         setLayout(null);

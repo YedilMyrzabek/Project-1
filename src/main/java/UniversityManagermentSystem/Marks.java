@@ -7,9 +7,9 @@ import java.awt.event.ActionListener;
 import java.sql.ResultSet;
 
 public class Marks extends JFrame implements ActionListener {
-    String rollno;
-    JButton submit,cancel;
-    Marks(String rollno){
+     String rollno;
+     JButton cancel;
+    public Marks(String rollno){
         this.rollno = rollno;
 
         setSize(500,600);

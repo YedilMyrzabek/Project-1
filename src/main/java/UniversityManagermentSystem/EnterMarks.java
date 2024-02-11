@@ -7,11 +7,11 @@ import java.awt.event.ActionListener;
 import java.sql.*;
 
 public class EnterMarks extends JFrame implements ActionListener {
-    Choice crollno;
-    JComboBox cbtrimester;
-    JButton submit,cancel;
-    JTextField tfsub1,tfsub2,tfsub3,tfsub4,tfsub5,tfmarks1,tfmarks2,tfmarks3,tfmarks4,tfmarks5;
-    EnterMarks(){
+     Choice crollno;
+     JComboBox cbtrimester;
+     JButton submit,cancel;
+     JTextField tfsub1,tfsub2,tfsub3,tfsub4,tfsub5,tfmarks1,tfmarks2,tfmarks3,tfmarks4,tfmarks5;
+    public EnterMarks(){
         setSize(1000,500);
         setLocation(300,150);
         setLayout(null);

@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class About extends JFrame {
-    About(){
+    public About(){
         setSize(700,500);
         setLocation(400,150);
         getContentPane().setBackground(Color.WHITE);
@@ -17,28 +17,24 @@ public class About extends JFrame {
         add(image);
 
         JLabel heading = new JLabel("<html>Project: Moodle JR</br></html>");
-        heading.setBounds(50,20,300,130);
+        heading.setBounds(40,20,300,130);
         heading.setFont(new Font("Tahoma",Font.BOLD,30));
         add(heading);
 
-        JLabel name = new JLabel("Developed By: Myrzabek Yedil");
-        name.setBounds(50,230,500,40);
-        name.setFont(new Font("Tahoma",Font.BOLD,30));
+        JLabel name = new JLabel("Developed By: Myrzabek Yedil, Akerke Sugirbek");
+        name.setBounds(40,230,750,40);
+        name.setFont(new Font("Tahoma",Font.BOLD,26));
         add(name);
 
         JLabel idnumber = new JLabel("ID Number: 230760");
-        idnumber.setBounds(50,278,550,40);
+        idnumber.setBounds(40,278,550,40);
         idnumber.setFont(new Font("Tahoma",Font.PLAIN,30));
         add(idnumber);
 
         JLabel contact = new JLabel("Contact: 230760@astanait.edu.kz");
-        contact.setBounds(50,330,550,40);
+        contact.setBounds(40,330,550,40);
         contact.setFont(new Font("Tahoma",Font.PLAIN,30));
         add(contact);
-
-
-
-
 
         setLayout(null);
         setVisible(true);
